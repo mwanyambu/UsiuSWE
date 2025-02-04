@@ -1,0 +1,25 @@
+body {
+    /* Sets the background color of the page */
+    background-color: #C0C0C0;
+
+    /* Sets the font family for the text */
+    font-family: Arial, sans-serif;
+
+    /* Sets the font size for the text */
+    font-size: 16px;
+
+    /* Sets the color of the text */
+    color: #333;
+
+    /* Adds some padding around the content */
+    padding: 20px;
+
+    /* Ensures the body takes up the full height of the viewport */
+    min-height: 100vh;
+
+    /* Centers the content horizontally */
+    margin: 0 auto;
+
+    /* Adds a smooth scrolling effect */
+    scroll-behavior: smooth;
+}

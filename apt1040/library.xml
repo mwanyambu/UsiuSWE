@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+    <book id="B001">
+        <title>Introduction to XML</title>
+        <author>John Doe</author>
+        <year>2022</year>
+    </book>
+    <book id="B002">
+        <title>Advanced XML Schema</title>
+        <author>Jane Smith</author>
+        <year>2023</year>
+    </book>
+</library>

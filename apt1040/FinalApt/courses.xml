@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<courses>
+    <course id="course1">
+        <title>Introduction to Web Development</title>
+        <description>Learn the fundamentals of web development including HTML, CSS, and JavaScript.</description>
+        <full_description>This comprehensive course covers everything you need to know to get started with web development. You'll learn how to create responsive websites using HTML5, CSS3, and JavaScript. By the end of this course, you'll be able to build your own interactive web pages from scratch.</full_description>
+        <image>images/course-web-dev.svg</image>
+        <category>Programming</category>
+        <duration>8 weeks</duration>
+        <rating>4.8</rating>
+        <featured>true</featured>
+        <instructor>John Smith</instructor>
+        <modules>
+            <module>
+                <title>HTML Foundations</title>
+                <duration>1.5 hours</duration>
+            </module>
+            <module>
+                <title>CSS Styling and Layout</title>
+                <duration>2 hours</duration>
+            </module>
+            <module>
+                <title>JavaScript Basics</title>
+                <duration>2.5 hours</duration>
+            </module>
+            <module>
+                <title>Responsive Design</title>
+                <duration>1.5 hours</duration>
+            </module>
+            <module>
+                <title>Final Project</title>
+                <duration>3 hours</duration>
+            </module>
+        </modules>
+    </course>
+    
+    <course id="course2">
+        <title>User Experience Design</title>
+        <description>Master the principles of UX design and create user-centered digital experiences.</description>
+        <full_description>This course will teach you how to design digital products that users love. You'll learn UX research methods, wireframing, prototyping, and usability testing. Through hands-on projects, you'll develop a portfolio that showcases your design thinking and process.</full_description>
+        <image>images/course-ux-design.svg</image>
+        <category>Design</category>
+        <duration>6 weeks</duration>
+        <rating>4.7</rating>
+        <featured>true</featured>
+        <instructor>Sarah Johnson</instructor>
+        <modules>
+            <module>
+                <title>Introduction to UX Design</title>
+                <duration>1 hour</duration>
+            </module>
+            <module>
+                <title>User Research Methods</title>
+                <duration>2 hours</duration>
+            </module>
+            <module>
+                <title>Wireframing and Prototyping</title>
+                <duration>2.5 hours</duration>
+            </module>
+            <module>
+                <title>Usability Testing</title>
+                <duration>1.5 hours</duration>
+            </module>
+            <module>
+                <title>Design Portfolio</title>
+                <duration>2 hours</duration>
+            </module>
+        </modules>
+    </course>
+    
+    <course id="course3">
+        <title>Python for Data Science</title>
+        <description>Harness the power of Python for data analysis, visualization, and machine learning.</description>
+        <full_description>This hands-on course will teach you how to use Python for data science applications. You'll learn to work with popular libraries like NumPy, Pandas, and Matplotlib to analyze and visualize data. The course also covers basic machine learning concepts using scikit-learn.</full_description>
+        <image>images/course-python.svg</image>
+        <category>Programming</category>
+        <duration>10 weeks</duration>
+        <rating>4.9</rating>
+        <featured>true</featured>
+        <instructor>Michael Chen</instructor>
+        <modules>
+            <module>
+                <title>Python Basics</title>
+                <duration>2 hours</duration>
+            </module>
+            <module>
+                <title>Data Manipulation with NumPy and Pandas</title>
+                <duration>3 hours</duration>
+            </module>
+            <module>
+                <title>Data Visualization</title>
+                <duration>2.5 hours</duration>
+            </module>
+            <module>
+                <title>Introduction to Machine Learning</title>
+                <duration>3 hours</duration>
+            </module>
+            <module>
+                <title>Data Science Project</title>
+                <duration>4 hours</duration>
+            </module>
+        </modules>
+    </course>
+    
+    <course id="course4">
+        <title>Digital Marketing Fundamentals</title>
+        <description>Learn effective strategies for promoting businesses and products in the digital landscape.</description>
+        <full_description>This course covers all aspects of digital marketing including SEO, social media, email marketing, and paid advertising. You'll develop practical skills through real-world case studies and create a comprehensive digital marketing plan for a business of your choice.</full_description>
+        <image>images/course-marketing.svg</image>
+        <category>Business</category>
+        <duration>6 weeks</duration>
+        <rating>4.6</rating>
+        <featured>false</featured>
+        <instructor>Amanda Lopez</instructor>
+        <modules>
+            <module>
+                <title>Digital Marketing Overview</title>
+                <duration>1 hour</duration>
+            </module>
+            <module>
+                <title>Search Engine Optimization</title>
+                <duration>2 hours</duration>
+            </module>
+            <module>
+                <title>Social Media Marketing</title>
+                <duration>2 hours</duration>
+            </module>
+            <module>
+                <title>Email Marketing</title>
+                <duration>1.5 hours</duration>
+            </module>
+            <module>
+                <title>Analytics and Measurement</title>
+                <duration>1.5 hours</duration>
+            </module>
+        </modules>
+    </course>
+    
+    <course id="course5">
+        <title>Spanish for Beginners</title>
+        <description>Start your journey to Spanish fluency with this comprehensive course for beginners.</description>
+        <full_description>This beginner-friendly course will introduce you to Spanish vocabulary, grammar, and pronunciation. Through interactive exercises and real-life dialogues, you'll develop basic conversation skills. By the end of the course, you'll be able to communicate in everyday situations in Spanish.</full_description>
+        <image>images/course-spanish.svg</image>
+        <category>Language</category>
+        <duration>12 weeks</duration>
+        <rating>4.7</rating>
+        <featured>false</featured>
+        <instructor>Elena Rodriguez</instructor>
+        <modules>
+            <module>
+                <title>Basic Greetings and Introductions</title>
+                <duration>1 hour</duration>
+            </module>
+            <module>
+                <title>Everyday Vocabulary</title>
+                <duration>2 hours</duration>
+            </module>
+            <module>
+                <title>Present Tense Verbs</title>
+                <duration>2 hours</duration>
+            </module>
+            <module>
+                <title>Travel Phrases</title>
+                <duration>1.5 hours</duration>
+            </module>
+            <module>
+                <title>Conversation Practice</title>
+                <duration>2 hours</duration>
+            </module>
+        </modules>
+    </course>
+    
+    <course id="course6">
+        <title>Mobile App Development with React Native</title>
+        <description>Build cross-platform mobile applications using React Native framework.</description>
+        <full_description>Learn to create native mobile apps for iOS and Android using a single codebase with React Native. This course covers component-based architecture, state management, navigation, and connecting to APIs. You'll complete the course by building a fully functional mobile app that you can add to your portfolio.</full_description>
+        <image>images/course-react-native.svg</image>
+        <category>Programming</category>
+        <duration>8 weeks</duration>
+        <rating>4.8</rating>
+        <featured>false</featured>
+        <instructor>David Park</instructor>
+        <modules>
+            <module>
+                <title>React Native Basics</title>
+                <duration>2 hours</duration>
+            </module>
+            <module>
+                <title>Components and Props</title>
+                <duration>1.5 hours</duration>
+            </module>
+            <module>
+                <title>Navigation and Routing</title>
+                <duration>2 hours</duration>
+            </module>
+            <module>
+                <title>Working with APIs</title>
+                <duration>2 hours</duration>
+            </module>
+            <module>
+                <title>App Deployment</title>
+                <duration>1.5 hours</duration>
+            </module>
+        </modules>
+    </course>
+</courses>

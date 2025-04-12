@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnHub - Interactive E-Learning Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Learn<span>Hub</span></h1>
+            </div>
+            <nav>
+                <button class="menu-toggle" aria-label="Toggle navigation menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active" aria-current="page">Home</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+                <button id="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Expand Your Knowledge</h2>
+                    <p>Discover interactive courses designed to help you master new skills at your own pace.</p>
+                    <div class="cta-buttons">
+                        <a href="courses.html" class="btn btn-primary">Explore Courses</a>
+                        <a href="#featured" class="btn btn-secondary">See Featured</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://media.istockphoto.com/id/1919863292/photo/e-learning-education-internet-lessons-and-online-learning-with-webinars-video-tutorials.jpg?s=1024x1024&w=is&k=20&c=5qZbetrhWMCdOiptNJCwzTWl2Npm1Cd4lvg848EDNbQ=" alt="Students learning online illustration">
+                </div>
+            </div>
+        </section>
+
+        <section id="featured" class="featured-courses">
+            <div class="container">
+                <h2>Featured Courses</h2>
+                <div class="course-cards" id="featured-courses">
+                    <!-- Course cards will be loaded from XML -->
+                    <div class="loading">
+                        <i class="fas fa-spinner fa-spin"></i>
+                        <span>Loading courses...</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="why-choose-us">
+            <div class="container">
+                <h2>Why Choose LearnHub?</h2>
+                <div class="features">
+                    <div class="feature">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Interactive Learning</h3>
+                        <p>Engage with content through interactive exercises and quizzes.</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-certificate"></i>
+                        <h3>Earn Certificates</h3>
+                        <p>Receive recognition for your accomplishments and new skills.</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-users"></i>
+                        <h3>Expert Instructors</h3>
+                        <p>Learn from industry professionals with real-world experience.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <div class="container">
+                <h2>Stay Updated</h2>
+                <p>Subscribe to our newsletter for the latest courses and learning tips.</p>
+                <form id="newsletter-form" novalidate>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" aria-label="Email address">
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </div>
+                    <div id="email-error" class="error-message" role="alert"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Learn<span>Hub</span></h2>
+                    <p>Your gateway to interactive learning</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <address>
+                        <p><i class="fas fa-envelope"></i> info@learnhub.com</p>
+                        <p><i class="fas fa-phone"></i> +2547123456789</p>
+                        <p><i class="fas fa-map-marker-alt"></i> 123 LearnHub St, Nairobi, Kenya</p>
+                        <p><i class="fas fa-clock"></i> Mon - Fri: 9 AM - 5 PM</p>
+                        <p><i class="fas fa-clock"></i> Sat - Sun: Closed</p>
+                    </address>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 LearnHub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - LearnHub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Learn<span>Hub</span></h1>
+            </div>
+            <nav>
+                <button class="menu-toggle" aria-label="Toggle navigation menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="about.html" class="active" aria-current="page">About</a></li>
+                </ul>
+                <button id="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="about-header">
+            <div class="container">
+                <h2>About LearnHub</h2>
+                <p>Your partner in lifelong learning and skill development</p>
+            </div>
+        </section>
+
+        <section class="our-mission">
+            <div class="container">
+                <div class="mission-content">
+                    <div class="mission-text">
+                        <h3>Our Mission</h3>
+                        <p>At LearnHub, we believe education should be accessible, engaging, and relevant. Our mission is to empower learners worldwide with high-quality, interactive courses that develop practical skills for today's digital world.</p>
+                        <p>Founded in 2023, we've helped thousands of students master new technologies, advance their careers, and pursue their passions through our innovative learning platform.</p>
+                    </div>
+                    <div class="mission-image">
+                        <img src="https://cdn.pixabay.com/photo/2017/07/28/09/35/agreement-2548138_1280.jpg" alt="Team collaborating on education goals">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="our-team">
+            <div class="container">
+                <h3>Our Team</h3>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <img src="https://avatars.githubusercontent.com/u/64314455?v=4" alt="John Mwanyasi, Founder & CEO">
+                        <h4>John Mwanyasi</h4>
+                        <p>Founder & CEO</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <div class="container">
+                <h3>Contact Us</h3>
+                <p>Have questions or feedback? We'd love to hear from you!</p>
+                <form id="contact-form" novalidate>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" placeholder="Your Name" required aria-required="true">
+                            <div class="error-message" id="name-error"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-email">Email</label>
+                            <input type="email" id="contact-email" placeholder="Your Email" required aria-required="true">
+                            <div class="error-message" id="contact-email-error"></div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" placeholder="Subject" required aria-required="true">
+                        <div class="error-message" id="subject-error"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" placeholder="Your Message" rows="5" required aria-required="true"></textarea>
+                        <div class="error-message" id="message-error"></div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <div id="form-success" class="success-message" style="display: none;">
+                        Thank you for your message! We'll get back to you soon.
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Learn<span>Hub</span></h2>
+                    <p>Your gateway to interactive learning</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <address>
+                        <p><i class="fas fa-envelope"></i> info@learnhub.com</p>
+                        <p><i class="fas fa-phone"></i> +254712345678</p>
+                        <p><i class="fas fa-map-marker-alt"></i> 123 LearnHub St, Nairobi, Kenya</p>
+                        <p><i class="fas fa-clock"></i> Mon - Fri: 9 AM - 5 PM</p>
+                        <p><i class="fas fa-clock"></i> Sat - Sun: Closed</p>
+                    </address>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 LearnHub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/contact.js"></script>
+</body>
+</html>

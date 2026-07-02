@@ -3,9 +3,9 @@ def greet():
     this function greets the user
     """
     
-    name = input("What is your name? ") #this line prompts user for their name
-    age = int(input("How old are you? ")) #this line prompts user for their age
-    print(f"Hello, {name}! You are {age} years old.")
+    jina = input("waitwa nani? ") #this line prompts user for their name
+    age = int(input("uko umri gani? ")) #this line prompts user for their age
+    print(f"Jambo, {jina}! uko na miaka {age}")
 greet() #this line calls the greet function
 
 def salamu(jina):
@@ -14,4 +14,4 @@ def salamu(jina):
     """
 
     print("shikamoo", jina, "waendeleaje")
-salamu("john")
+salamu("shighadi") #this line calls the salamu function

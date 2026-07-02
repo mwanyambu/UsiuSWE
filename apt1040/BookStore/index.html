@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📚 Online Book Store</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #e2dbdb;
+    margin: 0;
+    padding: 0;
+}
+
+/* 🌟 Headings & Text */
+h2 {
+    color: #007BFF;
+    font-size: 45px;
+    margin: 20px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    color: #788914;
+    font-size: 20px;
+    margin: 10px 0;
+    line-height: 1.5;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    color: #333;
+}
+
+/* 🌟 Container */
+.container {
+    width: 98%;
+    max-width: 1500px;
+    margin: 20px auto;
+    background: #e2dbdb;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 🌟 Search & Filter Section */
+#searchContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#searchInput, #genreFilter, #sortPrice {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #cbb9b9;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#searchBtn {
+    padding: 10px 15px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#searchBtn:hover {
+    background: #0056b3;
+}
+
+/* 🌟 Book List */
+#bookList {
+    margin-top: 10px;
+}
+
+/* 🌟 Book Items */
+.book-item {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.book-details {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.book-title {
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-right: 10px;
+}
+
+.book-author {
+    font-style: italic;
+    color: #555;
+    margin-right: 20px;
+}
+
+.book-price {
+    font-weight: bold;
+    color: #28a745;
+    margin-right: 20px;
+}
+
+/* 🌟 Buttons */
+.book-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.book-buttons button, .cart-buttons button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Add to Cart Button */
+.add-to-cart {
+    background: #28a745;
+    color: white;
+}
+
+.add-to-cart:hover {
+    background: #218838;
+}
+
+/* Preview Button */
+.preview-btn {
+    background: #007bff;
+    color: white;
+}
+
+.preview-btn:hover {
+    background: #0056b3;
+}
+
+/* 🌟 Shopping Cart */
+#cartContainer {
+    margin-top: 20px;
+    padding: 15px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#cartList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#cartList li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#cartTotal {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+/* Cart Buttons */
+.cart-buttons {
+    margin-top: 10px;
+}
+
+.clear-cart {
+    background: #dc3545;
+    color: white;
+}
+
+.checkout {
+    background: #ffc107;
+    color: black;
+}
+
+.clear-cart:hover {
+    background: #c82333;
+}
+
+.checkout:hover {
+    background: #e0a800;
+}
+
+/* 🌟 Modal Styling */
+#modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    text-align: left;
+    max-width: 500px;
+}
+
+#modal-close {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    float: right;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>📚 Welcome to MWANYASI Book Store</h2>
+        <p>Your one-stop shop for all your programming and tech books!</p>
+        <p>Explore our collection and add your favorite books to the cart.</p>
+        <p>Happy Reading! 📖</p>
+        
+        <!-- Search & Filter Section -->
+        <div id="searchContainer">
+            <input type="text" id="searchInput" placeholder="Search books...">
+            <button id="searchBtn">🔍 Search</button>
+        </div>
+
+        <div id="filterContainer">
+            <select id="genreFilter">
+                <option value="All">All Genres</option>
+                <option value="Programming">Programming</option>
+                <option value="Web Development">Web Development</option>
+                <option value="Software Engineering">Software Engineering</option>
+                <option value="Cyber Security">Cyber Security</option>
+                <option value="AI & ML">AI & ML</option>
+                <option value="Data Science">Data Science</option>
+                <option value="Computer Science">Computer Science</option>
+                <option value="Databases">Databases</option>
+            </select>
+
+            <select id="sortPrice">
+                <option value="asc">Sort by Price: Low to High</option>
+                <option value="desc">Sort by Price: High to Low</option>
+            </select>
+        </div>
+
+        <!-- Book List -->
+        <h3>📖 Available Books</h3>
+        <div id="bookList"></div>
+
+        <!-- Shopping Cart -->
+        <div id="cartContainer">
+            <h3>🛒 Shopping Cart</h3>
+            <ul id="cartList"></ul>
+            <p id="cartTotal">Total: $0.00</p>
+            <div class="cart-buttons">
+                <button class="clear-cart" onclick="clearCart()">🗑 Clear Cart</button>
+                <button class="checkout" onclick="checkout()">💳 Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+<!-- 📖 Book Details & Preview Modal -->
+<div id="modal" style="
+    display:none;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background:white;
+    padding:20px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.3);
+    border-radius:10px;
+">
+</div>
+</body>
+</html>

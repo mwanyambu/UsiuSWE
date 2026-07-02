@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+    <book id="B001">
+        <title>Introduction to JavaScript</title>
+        <author>John Doe</author>
+        <price>29.99</price>
+        <genre>Programming</genre>
+    </book>
+    <book id="B002">
+        <title>Web Development Essentials</title>
+        <author>Jane Smith</author>
+        <price>34.99</price>
+        <genre>Web Design</genre>
+    </book>
+    <book id="B003">
+        <title>Mastering XML</title>
+        <author>Emily White</author>
+        <price>24.99</price>
+        <genre>Data</genre>
+    </book>
+    <book id="B004">
+        <title>Advanced CSS Techniques</title>
+        <author>Michael Brown</author>
+        <price>39.99</price>
+        <genre>Web Design</genre>
+    </book>
+    <book id="B005">
+        <title>Python for Beginners</title>
+        <author>Sarah Johnson</author>
+        <price>19.99</price>
+        <genre>Programming</genre>
+    </book>
+    <book id="B006">
+        <title>Understanding JSON</title>
+        <author>David Wilson</author>
+        <price>22.99</price>
+        <genre>Data</genre>
+    </book>
+    <book id="B007">
+        <title>HTML5 and CSS3</title>
+        <author>Laura Garcia</author>
+        <price>27.99</price>
+        <genre>Web Design</genre>
+    </book>
+    <book id="B008">
+        <title>JavaScript: The Good Parts</title>
+        <author>Douglas Crockford</author>
+        <price>31.99</price>
+        <genre>Programming</genre>
+    </book>
+    <book id="B009">
+        <title>Data Structures and Algorithms</title>
+        <author>Robert Martinez</author>
+        <price>45.99</price>
+        <genre>Programming</genre>
+    </book>
+    <book id="B010">
+        <title>Learning XML</title>
+        <author>Chris Anderson</author>
+        <price>28.99</price>
+        <genre>Data</genre>
+    </book>
+    <book id="B011">
+        <title>Responsive Web Design</title>
+        <author>Jessica Taylor</author>
+        <price>33.99</price>
+        <genre>Web Design</genre>
+    </book>
+    <book id="B012">
+        <title>JavaScript Patterns</title>
+        <author>Stoyan Stefanov</author>
+        <price>37.99</price>
+        <genre>Programming</genre>
+    </book>
+    <book id="B013">
+        <title>XML in a Nutshell</title>
+        <author> Elliotte Rusty Harold</author>
+        <price>29.99</price>
+        <genre>Data</genre>
+    </book>
+    <book id="B014">
+        <title>CSS Secrets</title>
+        <author>Lea Verou</author>
+        <price>41.99</price>
+        <genre>Web Design</genre>
+    </book>
+    <book id="B015">
+        <title>JavaScript: The Definitive Guide</title>
+        <author>David Flanagan</author>
+        <price>49.99</price>
+        <genre>Programming</genre>
+    </book>
+    <book id="B016">
+        <title>XML and Web Technologies</title>
+        <author>Michael Kay</author>
+        <price>36.99</price>
+        <genre>Data</genre>
+    </book>
+    <book id="B017">
+        <title>CSS Mastery</title>
+        <author>Andy Budd</author>
+        <price>39.99</price>
+        <genre>Web Design</genre>
+    </book>
+    <book id="B018">
+        <title>JavaScript Cookbook</title>
+        <author>Shelley Powers</author>
+        <price>44.99</price>
+        <genre>Programming</genre>
+    </book>
+    
+</bookstore>
